@@ -14,11 +14,7 @@ namespace Sube2EmlakciLib
         }
         public double Kira { get; set; }
         public double Depozito { get; set; }
-    // Internal Erişim Belirleyicisi: Yalnızca aynı namespace içersindeki tüm classlar tarafından erişilebilir.
-     // :base() Constructerin tuttuğu değerleri gösterir.
-
-    //public new string EvBilgileri()
-    //   {    return $"{base.EvBilgileri()}\nKira:{this.Kira}\nDepozito:{this.Depozito}";    }
+    
 
     public override string EvBilgileri()
         {
